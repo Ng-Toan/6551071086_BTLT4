@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fdfdfd;
+}
+
+.form-dulich {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #666;
+    background: white;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(26, 81, 222);
+}
+input[type="text1"]{
+    width: 90%;
+    padding: 3px;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+input[type="text2"]{
+    width: 50%;
+    padding: 3px;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+input[type="text3"]{
+    width: 30%;
+    padding: 3px;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+.form-dulich h2 {
+    text-align: center;
+    color: blue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffcc;
+}
+
+td {
+    padding: 3px;
+    border: 2px solid rgb(51, 155, 184);
+    color:rgb(33, 114, 219);
+    font-weight: bold;
+}
+.group-box {
+    border: 2px solid brown;
+    padding: 8px;
+    background: #ffffe0; 
+}
+
+.group-box legend {
+    color: rgb(234, 160, 24);
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    padding: 5px 15px;
+    background: #ddd;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #bbb;
+}
+
+.success {
+    text-align: center;
+    color: orange   ;
+    font-weight: bold;
+    margin-top: 10px;
+}
+textarea {
+    width: 80%;
+    padding: 5px;
+    resize: vertical; 
+}

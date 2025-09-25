@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.form-box {
+    width: 600px;
+    margin: 30px auto;
+    border: 1px solid green;
+    padding: 10px;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(218, 254, 200);
+}
+
+td {
+    padding: 3px;
+    border: 2px solid green;
+    text-align: left;
+    color:green;
+    line-height: 1.2; 
+    vertical-align: middle;
+}
+input[type="text1"]{
+    width: 100%;
+    padding: 3px;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+input[type="text2"]{
+    width: 80%;
+    padding: 3px;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+input[type="text3"]{
+    width: 60%;
+    padding: 3px;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+select {
+    width: 95%;
+    padding: 5px;
+    margin: 0;  
+    box-sizing: border-box; 
+}
+input[type="radio"] {
+    width: auto;                
+    margin-left: 10px;          
+}
+button {
+    padding: 5px 15px;
+    background-color: #ddd;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+#result {
+    text-align: center;
+    padding: 8px;
+}

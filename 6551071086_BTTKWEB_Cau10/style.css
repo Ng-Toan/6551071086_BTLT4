@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu {
+    width: 30%;
+    background-color: #e6f0ff; 
+    vertical-align: top;
+    border-right: 1px solid #000;
+}
+
+.menu ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.menu li {
+    margin: 5px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: blue; 
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: purple; 
+    text-decoration: underline;
+}
+
+.content {
+    padding: 5px 20px;
+    vertical-align: top; 
+}

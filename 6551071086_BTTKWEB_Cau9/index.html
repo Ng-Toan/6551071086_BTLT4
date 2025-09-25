@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký du lịch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form-dulich">
+        <h1>Đăng ký du lịch</h1>
+        <table>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text1" name="hoten" required></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text2" name="diachi" required></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text3" name="dienthoai" required></td>
+            </tr>
+            <tr>
+                <td>Khách Việt Nam</td>
+                <td><input type="checkbox" name="vn"></td>
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td>
+                    <select name="tour">
+                        <option value="">-- Chọn tour --</option>
+                        <option>Buôn Mê Thuột - Gia Lai - Kontum</option>
+                        <option>Đà Nẵng - Hội An - Huế</option>
+                        <option>Hạ Long - Cát Bà</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td>
+                    <input type="radio" name="pt" value="maybay"> Máy bay
+                    <input type="radio" name="pt" value="xeoto"> Xe ô tô
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset class="group-box">
+                        <legend>   Số lượng đoàn khách</legend>
+                        <div style="text-align: center;"> Người lớn <input type="number" name="nguoilon" min="0" style="width:60px">
+                        &nbsp;&nbsp; Trẻ em <input type="number" name="treem" min="0" style="width:60px;"></div>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>Người lớn</td>
+                <td><input type="number" name="nguoilon" min="0"></td>
+            </tr>
+            <tr>
+                <td>Trẻ em</td>
+                <td><input type="number" name="treem" min="0"></td>
+            </tr>
+             <tr>
+                <td>Ghi chú thêm</td>
+                <td>
+                    <textarea name="ghichu" rows="3" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center">
+                    <button type="submit">Đồng ý</button>
+                </td>
+            </tr>
+             <tr>
+                <td colspan="2" class="center">
+                    <p class="success" id="successMsg" style="display:none;">Bạn đã đăng ký thành công!!!</p>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script>
+        const form = document.querySelector('.form-dulich');
+        const msg = document.getElementById('successMsg');
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+            msg.style.display = 'block';
+        });
+    </script>
+</body>
+</html>

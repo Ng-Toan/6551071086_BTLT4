@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Phiếu đăng ký</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-box">
+        <h2>Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+        <form id="registerForm">
+            <table>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td><input type="text1" id="hoten" required></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text2" id="diachi" required></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="text3" id="dienthoai" required></td>
+                </tr>
+                <tr>
+                    <td>Phái</td>
+                    <td>
+                        <label><input type="radio" name="phai" value="Nam"> Nam</label>
+                        <label><input type="radio" name="phai" value="Nữ"> Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghề nghiệp</td>
+                    <td>
+                        <select id="nghe">
+                            <option>Giáo viên</option>
+                            <option>Bác sĩ</option>
+                            <option>Kỹ sư</option>
+                            <option>Sinh viên</option>
+                            <option>Khác</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chọn sản phẩm tham gia</td>
+                    <td>
+                        <select id="sanpham" multiple size="4">
+                            <option>Kem đánh răng</option>
+                            <option>Bột giặt</option>
+                            <option>Dầu gội đầu</option>
+                            <option>Sữa tắm</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số người dự đoán tham gia</td>
+                    <td><input type="number" id="songuoi" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                        <button type="submit">Đồng ý</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="result"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("registerForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            document.getElementById("result").innerHTML = 
+                "<span style='color:red; font-weight:bold;'>Bạn đã đăng ký thành công!!!</span>";
+        });
+    </script>
+</body>
+</html>
