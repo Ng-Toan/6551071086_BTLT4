@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-box">
+        <h2>Đăng nhập</h2>
+        <form onsubmit="return showUser()">
+            <label for="username">Mã người dùng:</label>
+            <input type="text" id="username"><br>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password"><br>
+
+            <div style="text-align: center;">
+                <button type="submit">Đồng ý</button>
+            </div>
+        </form>
+
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function showUser() {
+            let user = document.getElementById("username").value;
+            // hiện username như 1 link màu xanh
+            document.getElementById("result").innerHTML = "<a href='#'>" + user + "</a>";
+            return false; // không reload trang
+        }
+    </script>
+</body>
+</html>

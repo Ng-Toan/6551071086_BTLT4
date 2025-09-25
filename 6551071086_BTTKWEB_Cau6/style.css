@@ -1,0 +1,47 @@
+
+table {
+    width: 70%;             
+    margin: 20px auto;
+    border: 2px solid red;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: white;
+}
+
+td {
+    border: 1px solid red;
+    padding: 10px;
+    vertical-align: top;
+}
+.header {
+    background-color: red;
+    color: white;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+.title {
+    text-align: center;
+    background-color: #ffeaea;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;        
+    margin-top: 8px;      
+}
+
+.left {
+    width: 50%;
+    background-color: #fff;
+}
+
+.right {
+    width: 50%;
+}
+
+ul, ol {
+    margin: 5px 0 10px 20px;
+}

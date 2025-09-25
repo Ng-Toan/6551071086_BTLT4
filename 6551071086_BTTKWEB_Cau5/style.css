@@ -1,0 +1,26 @@
+
+h2 {
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid rgb(255, 213, 0);  
+    padding: 1px;
+}
+
+
+th {
+    background-color: #d9534f;
+    color: white;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    color: green;           
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text1 {
+    padding: 10px;
+    color: blue;
+}
+
+.container1 {
+    background-color: pink;
+    text-align: center;
+    padding: 0px;
+    margin: 10px 0;
+}
+
+.container1 h2 {
+    color: deeppink;        
+}
+
+.container2 {
+    background-color: bisque;
+    padding: 0px;
+}
+
+.text3 {
+    color: blue;             
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text4 {
+    color: crimson;          
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text5 {
+    color: green;           
+    text-align: center;
+}

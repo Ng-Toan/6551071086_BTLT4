@@ -1,0 +1,31 @@
+body {
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.title {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.section {
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.header1{
+    color:orange
+}
+.header2{
+    color:orange
+}
+ol {
+    margin-left: 30px;
+        padding: 10px;
+}
+
+.contact {
+    color: blue;
+    margin-top: 20px;
+}
